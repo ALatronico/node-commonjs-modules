@@ -1,7 +1,7 @@
-function hobbies(hobbyOne, hobbyTwo, hobbyThree){
+function hobbiesObject(hobbyOne, hobbyTwo, hobbyThree){
   return {
     hobbies: [hobbyOne, hobbyTwo, hobbyThree]
   };
 }
 
-module.exports = hobbies;
+module.exports = hobbiesObject;

@@ -1,8 +1,8 @@
-function fullName(firstName, lastName){
+function fullNameObject(firstName, lastName){
   return {
     firstName,
     lastName
-  }
+  };
 }
 
-module.exports = fullName;
+module.exports = fullNameObject;

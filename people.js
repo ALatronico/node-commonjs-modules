@@ -1,9 +1,9 @@
-const fullName = require('./names.js');
-const hobbies = require('./hobbies.js');
+const newFullName = require('./names.js');
+const newHobbies = require('./hobbies.js');
 
 function oneObject(){
-  const fullName = fullName(Antonio, Latronico);
-  const hobbies = hobbies(sport, musica, gaming);
+  const fullName = newFullName('Antonio', "Latronico")
+  const hobbies = newHobbies("sport", "musica", "gaming")
 
   return {
     fullName,
